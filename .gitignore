@@ -1,0 +1,12 @@
+# 데이터셋 원본 (Kaggle에서 재다운로드 가능)
+safety_dataset/
+*.zip
+
+# 사전학습 기본 가중치 (ultralytics가 자동 다운로드)
+scripts/yolo11n.pt
+scripts/yolo11s.pt
+scripts/yolo26n.pt
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
