@@ -87,6 +87,7 @@ def main():
         lr0=lr,
         imgsz=IMGSZ,
         patience=PATIENCE,
+	workers=2,
         project="runs_grid",
         name=run_name,
         exist_ok=True,
